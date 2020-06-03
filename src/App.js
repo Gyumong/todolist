@@ -1,8 +1,13 @@
 import React from 'react';
-
-
+import TodoTemplate from './component/TodoTemplate';
+import Content from './component/Content';
 const App= ()=>{
-  return <div>todo</div>;
+  return (
+    <>
+  <TodoTemplate/>
+  <Content/>
+  </>
+  );
 };
 
 export default App;
